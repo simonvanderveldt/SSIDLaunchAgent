@@ -1,0 +1,10 @@
+#!/bin/bash
+
+# Install shell script
+sudo cp SSIDLaunchAgent.sh /opt/SSIDLaunchAgent/
+
+# Install LaunchAgent
+cp SSIDLaunchAgent.plist ~/Library/LaunchAgents/
+
+# Start LaunchAgent
+launchctl load ~/Library/LaunchAgents/SSIDLaunchAgent.plist
