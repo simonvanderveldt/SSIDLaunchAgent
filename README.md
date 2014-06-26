@@ -12,7 +12,7 @@ Manual install:
 - Copy `SSIDLaunchAgent.plist` to ~/Library/LaunchAgents
 - Load the LaunchAgent by executing `launchctl load ~/Library/LaunchAgents/SSIDLaunchAgent.plist`
 
-That's it! :) After connecting to a wireless network the $SSID.sh file will be executed.
+That's it! :) After connecting to a wireless network the `$SSID.sh` file will be executed.
 
 # Thanks
 Based on [Mac OS X LocationChanger @ TECH.inhelsinki.nl](http://tech.inhelsinki.nl/locationchanger/) and [Set 'Location' automatically via a script  @ hints.macworld.com](http://hints.macworld.com/article.php?story=20060122060330816)
